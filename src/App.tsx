@@ -14,6 +14,7 @@ import NotFound from "./pages/NotFound";
 import Pqrs from "./pages/Pqrs";
 import Politicas from "./pages/Politicas";
 import FloatingPqrButton from "./components/FloatingPqrButton";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 const queryClient = new QueryClient();
 
@@ -37,6 +38,7 @@ const App = () => (
           <Route path="*" element={<NotFound />} />
         </Routes>
         <FloatingPqrButton />
+        <ScrollToTopButton />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
