@@ -5,43 +5,16 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 
 const policies = [
   {
-    id: "seguridad",
-    icon: "🦺",
-    title: "Política de Seguridad y Salud en el Trabajo",
-    content: `GYTC – Grúas y Transportes de Colombia se compromete a proteger la seguridad y salud de todos sus trabajadores, contratistas y visitantes. Nuestra política incluye:
+    id: "sgi",
+    icon: "🎯",
+    title: "Política de Sistema de Gestión Integral",
+    content: `GYTC – Grúas y Transportes de Colombia consolida su compromiso empresarial mediante un Sistema de Gestión Integral que abarca la Calidad de sus servicios, la protección del Medio Ambiente y la Seguridad y Salud en el Trabajo:
 
-• Identificación, evaluación y control de peligros y riesgos laborales en todas las operaciones de izaje y transporte.
-• Cumplimiento de la normatividad vigente en materia de Seguridad y Salud en el Trabajo (Decreto 1072 de 2015, Resolución 0312 de 2019).
-• Capacitación continua del personal en manejo seguro de equipos, trabajo en alturas y prevención de accidentes.
-• Investigación de incidentes y accidentes para implementar acciones correctivas y preventivas.
-• Promoción de una cultura de autocuidado y reporte de condiciones inseguras.
-• Dotación de Elementos de Protección Personal (EPP) adecuados para cada actividad.`,
-  },
-  {
-    id: "calidad",
-    icon: "⭐",
-    title: "Política de Calidad",
-    content: `En GYTC nos comprometemos a brindar servicios de alquiler de grúas, montacargas y transporte pesado con los más altos estándares de calidad:
-
-• Mantenimiento preventivo y correctivo programado de toda nuestra flota de equipos.
-• Personal operativo certificado y con experiencia comprobada.
-• Cumplimiento de los plazos y condiciones pactadas con nuestros clientes.
-• Mejora continua de nuestros procesos mediante indicadores de gestión.
-• Atención oportuna a las necesidades y expectativas de nuestros clientes.
-• Garantía de equipos en óptimas condiciones mecánicas y de seguridad.`,
-  },
-  {
-    id: "ambiental",
-    icon: "🌿",
-    title: "Política Ambiental",
-    content: `GYTC se compromete con la protección del medio ambiente y la sostenibilidad:
-
-• Gestión adecuada de residuos peligrosos (aceites, filtros, baterías) generados por nuestros equipos.
-• Control de emisiones atmosféricas y ruido en nuestras operaciones.
-• Uso responsable de recursos naturales como agua y energía.
-• Cumplimiento de la normatividad ambiental colombiana vigente.
-• Sensibilización del personal en prácticas ambientales responsables.
-• Mantenimiento preventivo para optimizar el consumo de combustible y reducir emisiones.`,
+• Brindar servicios de alquiler de grúas, montacargas y transporte especializado cumpliendo las expectativas de clientes con altos estándares de calidad.
+• Prevenir accidentes de trabajo y enfermedades laborales mediante la identificación, evaluación y control continuo de los riesgos que puedan afectar a empleados, contratistas y visitantes.
+• Proteger el medio ambiente, controlando los impactos ambientales, optimizando recursos y garantizando la adecuada disposición de residuos de nuestras operaciones.
+• Cumplir estrictamente con la legislación y normativa colombiana vigente aplicable en materia de calidad, medio ambiente y riesgos laborales.
+• Promover la mejora continua del Sistema de Gestión Integral (HSEQ) disponiendo de equipos en óptimas condiciones, capacitación permanente y personal calificado.`,
   },
   {
     id: "datos",
