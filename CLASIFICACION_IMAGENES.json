@@ -1,0 +1,198 @@
+{
+  "clasificacion_imagenes": [
+    {
+      "archivo_actual": "crane-grove.jpg",
+      "archivo_sugerido": "grua_telescopica__planta-industrial__01.jpg",
+      "categoria": "Grúas Telescópicas",
+      "alt_text": "Grúa telescópica Grove 80 toneladas izando carga en planta industrial",
+      "seccion_sugerida": "Grúas Telescópicas - Hero/Galería",
+      "descripcion": "Grúa Grove de 80 toneladas en operación de izaje en obra"
+    },
+    {
+      "archivo_actual": "crane-industrial.jpg",
+      "archivo_sugerido": "grua_telescopica__tanque-industrial__02.jpg",
+      "categoria": "Grúas Telescópicas",
+      "alt_text": "Grúa telescópica izando tanque industrial grande en planta procesadora",
+      "seccion_sugerida": "Grúas Telescópicas - Galería",
+      "descripcion": "Grúa telescópica en izaje de tanque industrial"
+    },
+    {
+      "archivo_actual": "crane-tower.jpg",
+      "archivo_sugerido": "grua_telescopica__torre-antena__03.jpg",
+      "categoria": "Grúas Telescópicas",
+      "alt_text": "Grúa telescópica extendida izando torre de antena urbana",
+      "seccion_sugerida": "Grúas Telescópicas - Galería",
+      "descripcion": "Grúa telescópica instalando torre de comunicaciones"
+    },
+    {
+      "archivo_actual": "crane-structure.jpg",
+      "archivo_sugerido": "grua_telescopica__edificio-residencial__04.jpg",
+      "categoria": "Grúas Telescópicas",
+      "alt_text": "Grúa telescópica en construcción de edificio residencial",
+      "seccion_sugerida": "Grúas Telescópicas - Galería",
+      "descripcion": "Grúa telescópica en obra residencial"
+    },
+    {
+      "archivo_actual": "crane-construction.jpg",
+      "archivo_sugerido": "grua_telescopica__estructura-metalica__05.jpg",
+      "categoria": "Grúas Telescópicas",
+      "alt_text": "Grúa telescópica izando estructura metálica en obra industrial",
+      "seccion_sugerida": "Grúas Telescópicas - Galería",
+      "descripcion": "Grúa telescópica en instalación de estructura metálica"
+    },
+    {
+      "archivo_actual": "crane-transformer.jpg",
+      "archivo_sugerido": "grua_telescopica__transformador-planta__06.jpg",
+      "categoria": "Grúas Telescópicas",
+      "alt_text": "Grúa telescópica izando transformador eléctrico en planta industrial",
+      "seccion_sugerida": "Grúas Telescópicas - Galería",
+      "descripcion": "Grúa telescópica en izaje de transformador"
+    },
+    {
+      "archivo_actual": "truck-crane-1.jpg",
+      "archivo_sugerido": "tractocamion__brazo-articulado-obra__01.jpg",
+      "categoria": "Tractocamión con Brazo Articulado 35 Ton",
+      "alt_text": "Tractocamión con brazo articulado 35 toneladas en operación de carga",
+      "seccion_sugerida": "Tractocamión - Galería",
+      "descripcion": "Tractocamión con brazo articulado en obra"
+    },
+    {
+      "archivo_actual": "crane-concrete.jpg",
+      "archivo_sugerido": "grua_telescopica__fundacion-concreto__07.jpg",
+      "categoria": "Grúas Telescópicas",
+      "alt_text": "Grúa telescópica en proyecto de fundación con transformador",
+      "seccion_sugerida": "Grúas Telescópicas - Galería",
+      "descripcion": "Grúa telescópica en operación con transformador"
+    },
+    {
+      "archivo_actual": "truck-crane-warehouse.jpg",
+      "archivo_sugerido": "tractocamion__brazo-articulado-bodega__02.jpg",
+      "categoria": "Tractocamión con Brazo Articulado 35 Ton",
+      "alt_text": "Tractocamión con brazo articulado trabajando en bodega industrial",
+      "seccion_sugerida": "Tractocamión - Galería",
+      "descripcion": "Tractocamión con brazo articulado en bodega"
+    },
+    {
+      "archivo_actual": "truck-crane-2.jpg",
+      "archivo_sugerido": "tractocamion__brazo-hidraulico-construccion__03.jpg",
+      "categoria": "Tractocamión con Brazo Articulado 35 Ton",
+      "alt_text": "Tractocamión con brazo hidráulico en zona de construcción",
+      "seccion_sugerida": "Tractocamión - Galería",
+      "descripcion": "Tractocamión con brazo articulado en construcción"
+    },
+    {
+      "archivo_actual": "crane-grove-container.jpg",
+      "archivo_sugerido": "grua_telescopica__contenedor-planta__08.jpg",
+      "categoria": "Grúas Telescópicas",
+      "alt_text": "Grúa telescópica Grove izando contenedor en planta industrial",
+      "seccion_sugerida": "Grúas Telescópicas - Galería",
+      "descripcion": "Grúa Grove 80 TON izando contenedor industrial"
+    },
+    {
+      "archivo_actual": "truck-crane-structure.jpg",
+      "archivo_sugerido": "tractocamion__brazo-articulado-comercial__04.jpg",
+      "categoria": "Tractocamión con Brazo Articulado 35 Ton",
+      "alt_text": "Tractocamión con brazo articulado izando en zona comercial",
+      "seccion_sugerida": "Tractocamión - Galería",
+      "descripcion": "Tractocamión en edificio comercial"
+    },
+    {
+      "archivo_actual": "crane-urban.jpg",
+      "archivo_sugerido": "grua_telescopica__zona-urbana__09.jpg",
+      "categoria": "Grúas Telescópicas",
+      "alt_text": "Grúa telescópica operando en zona urbana con edificios",
+      "seccion_sugerida": "Grúas Telescópicas - Galería",
+      "descripcion": "Grúa telescópica en operación urbana"
+    },
+    {
+      "archivo_actual": "truck-foton-industrial.jpg",
+      "archivo_sugerido": "tractocamion__brazo-articulado-excavador__05.jpg",
+      "categoria": "Tractocamión con Brazo Articulado 35 Ton",
+      "alt_text": "Tractocamión con brazo excavador en obra de construcción",
+      "seccion_sugerida": "Tractocamión - Galería",
+      "descripcion": "Tractocamión con brazo articulado tipo excavador"
+    },
+    {
+      "archivo_actual": "truck-excavator-construction.jpg",
+      "archivo_sugerido": "camion_grua__articulado-residencial__01.jpg",
+      "categoria": "Camión Grúa",
+      "alt_text": "Camión grúa con brazo articulado en proyecto residencial",
+      "seccion_sugerida": "Camión Grúa - Galería",
+      "descripcion": "Camión grúa en operación residencial"
+    },
+    {
+      "archivo_actual": "crane-residential.jpg",
+      "archivo_sugerido": "grua_telescopica__zona-residencial__10.jpg",
+      "categoria": "Grúas Telescópicas",
+      "alt_text": "Grúa telescópica izando estructura tubular en zona residencial",
+      "seccion_sugerida": "Grúas Telescópicas - Galería",
+      "descripcion": "Grúa telescópica 60 TON en zona residencial"
+    },
+    {
+      "archivo_actual": "crane-grove-plant.jpg",
+      "archivo_sugerido": "grua_telescopica__planta-industrial__11.jpg",
+      "categoria": "Grúas Telescópicas",
+      "alt_text": "Grúa telescópica Grove en planta industrial con grúa de respaldo",
+      "seccion_sugerida": "Grúas Telescópicas - Galería",
+      "descripcion": "Grúa Grove 120 TON en planta industrial"
+    },
+    {
+      "archivo_actual": "truck-foton-residential.jpg",
+      "archivo_sugerido": "tractocamion__foton-residencial__06.jpg",
+      "categoria": "Tractocamión con Brazo Articulado 35 Ton",
+      "alt_text": "Tractocamión Foton con caja elevándola en zona residencial",
+      "seccion_sugerida": "Tractocamión - Galería",
+      "descripcion": "Tractocamión Foton 25 TON en zona residencial"
+    },
+    {
+      "archivo_actual": "truck-crane-urban.jpg",
+      "archivo_sugerido": "camion_grua__brazo-articulado-urbano__02.jpg",
+      "categoria": "Camión Grúa",
+      "alt_text": "Camión grúa con brazo articulado trabajando en calle urbana",
+      "seccion_sugerida": "Camión Grúa - Galería",
+      "descripcion": "Camión grúa 20 TON en zona urbana"
+    },
+    {
+      "archivo_actual": "crane-metal-structure.jpg",
+      "archivo_sugerido": "grua_telescopica__estructura-metalica-obra__12.jpg",
+      "categoria": "Grúas Telescópicas",
+      "alt_text": "Grúa telescópica izando estructura metálica grande en construcción",
+      "seccion_sugerida": "Grúas Telescópicas - Galería",
+      "descripcion": "Grúa telescópica 90 TON en estructura metálica"
+    },
+    {
+      "archivo_actual": "crane-industrial-tank.jpg",
+      "archivo_sugerido": "grua_telescopica__tanque-industrial__13.jpg",
+      "categoria": "Grúas Telescópicas",
+      "alt_text": "Grúa telescópica izando tanque cilíndrico en planta",
+      "seccion_sugerida": "Grúas Telescópicas - Galería",
+      "descripcion": "Grúa 100 TON en izaje de tanques industriales"
+    },
+    {
+      "archivo_actual": "crane-gytc-industrial.jpg",
+      "archivo_sugerido": "grua_telescopica__planta-industrial__14.jpg",
+      "categoria": "Grúas Telescópicas",
+      "alt_text": "Grúa telescópica GYTC en planta industrial con chimenea",
+      "seccion_sugerida": "Grúas Telescópicas - Galería",
+      "descripcion": "Grúa GYTC 130 TON en planta industrial"
+    },
+    {
+      "archivo_actual": "crane-xcmg-commercial.jpg",
+      "archivo_sugerido": "grua_telescopica__edificio-comercial__15.jpg",
+      "categoria": "Grúas Telescópicas",
+      "alt_text": "Grúa telescópica XCMG operando en edificio comercial urbano",
+      "seccion_sugerida": "Grúas Telescópicas - Galería",
+      "descripcion": "Grúa XCMG 60 TON en zona comercial"
+    },
+    {
+      "archivo_actual": "crane-telescopic-plant.jpg",
+      "archivo_sugerido": "grua_telescopica__proyecto-industrial__16.jpg",
+      "categoria": "Grúas Telescópicas",
+      "alt_text": "Grúa telescópica en gran proyecto industrial complejo",
+      "seccion_sugerida": "Grúas Telescópicas - Galería",
+      "descripcion": "Grúa telescópica 110 TON en proyecto industrial"
+    }
+  ],
+  "imagenes_descartadas": [],
+  "notas": "Todas las imágenes se clasificaron exitosamente en las 4 categorías principales. No hay imágenes de Montacargas en el conjunto proporcionado."
+}
