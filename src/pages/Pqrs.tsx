@@ -15,8 +15,12 @@ import {
 } from "@/components/ui/select";
 import { Mail } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
-import { supabase } from "@/integrations/supabase/client";
+import emailjs from "@emailjs/browser";
 import { z } from "zod";
+
+const EMAILJS_SERVICE_ID = "service_4rt2z17";
+const EMAILJS_TEMPLATE_ID = "template_9s3668z";
+const EMAILJS_PUBLIC_KEY = "M_SDE_z4kSlqIwwsB";
 
 const formSchema = z.object({
   documentType: z.string().min(1, "Seleccione el tipo de documento"),
@@ -62,14 +66,25 @@ const Pqrs = () => {
     setIsSubmitting(true);
 
     try {
-      const { data, error } = await supabase.functions.invoke('send-pqr', {
-        body: formData,
-      });
-
-      if (error) throw error;
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        {
+          full_name: formData.fullName,
+          document_type: formData.documentType,
+          document_id: formData.documentId,
+          email: formData.email,
+          phone: formData.phone,
+          request_type: formData.requestType,
+          reason: formData.reason,
+          details: formData.details,
+          date: new Date().toLocaleString("es-CO"),
+        },
+        EMAILJS_PUBLIC_KEY
+      );
 
       toast({
-        title: "Petición radicada con éxito",
+        title: "Petición radicada con éxito ✅",
         description: "Hemos recibido su solicitud y la atenderemos pronto. Un asesor se comunicará con usted.",
       });
 
