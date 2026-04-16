@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Home, ArrowLeft, Phone, Search } from "lucide-react";
+import { ArrowLeft, Home, Phone, Search } from "lucide-react";
 
 const quickLinks = [
   { label: "Equipos", href: "/equipos" },
