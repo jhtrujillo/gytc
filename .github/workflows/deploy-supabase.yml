@@ -20,11 +20,11 @@ jobs:
           version: latest
 
       - name: Deploy send-pqr function
-        run: supabase functions deploy send-pqr --project-ref ${{ secrets.SUPABASE_PROJECT_ID }}
+        run: supabase functions deploy send-pqr --project-ref idpzjgmdguykehhicnrh
         env:
           SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
 
       - name: Deploy send-quote function
-        run: supabase functions deploy send-quote --project-ref ${{ secrets.SUPABASE_PROJECT_ID }}
+        run: supabase functions deploy send-quote --project-ref idpzjgmdguykehhicnrh
         env:
           SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
