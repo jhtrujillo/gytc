@@ -1,73 +1,58 @@
-# Welcome to your Lovable project
+# GYTC - Grúas y Transportes de Colombia
 
-## Project info
+Sitio web oficial de **GYTC – Grúas y Transportes de Colombia**, especialistas en izaje de cargas extrapesadas y sobredimensionadas, alquiler de maquinaria, transporte especializado y servicios combinados con cobertura nacional.
 
-**URL**: https://lovable.dev/projects/e1297f7f-a66e-41c0-ad5b-8b5a9474b68b
+✨ **Diseñado con [Lovable](https://lovable.dev/) y Antigravity** ✨
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🏗 Tecnologías Principales
 
-**Use Lovable**
+Este proyecto está construido con un stack moderno y escalable:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e1297f7f-a66e-41c0-ad5b-8b5a9474b68b) and start prompting.
+- **React 18** (Vite)
+- **TypeScript**
+- **Tailwind CSS** (shadcn-ui para componentes)
+- **EmailJS** (Para la radicación de PQRS)
+- **Lucide React** (Iconografía)
+- **IntersectionObserver** (Animaciones de scroll personalizadas)
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Características Destacadas
 
-**Use your preferred IDE**
+- **PWA (Progressive Web App):** Optimizado para carga rápida y funcionamiento offline.
+- **Formulario PQRS:** Flujo paso a paso con validaciones sólidas y Responsive UI, totalmente conectado a EmailJS.
+- **Widget Inteligente de WhatsApp:** Menú desplegable animado para conectar clientes directamente por área (Gerencia y Dirección Operativa).
+- **Smooth Animations:** Componentes que detectan el viewport para animaciones en primera carga y en scroll largo.
+- **Gestión SEO:** Configurado con metadatos específicos y URLs amigables (React Router).
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Ejecución Local
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Para correr este entorno en tu máquina local:
 
-Follow these steps:
+```bash
+# 1. Clonar el repositorio
+git clone <URL_DEL_REPO>
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 2. Ir a la carpeta
+cd gytc-v3
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 3. Instalar las dependencias
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Correr servidor de desarrollo
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🌐 Despliegue en Producción
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Para compilar y obtener los archivos listos para servidores como DreamHost o Apache:
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Generará la carpeta `dist/`, sobre la cual ya hemos integrado en `public/.htaccess` la configuración obligatoria para el funcionamiento de *React Router DOM* sin errores de recarga (errores 404).
 
-## What technologies are used for this project?
+---
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e1297f7f-a66e-41c0-ad5b-8b5a9474b68b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+© 2026 GYTC. Grúas y Transportes de Colombia S.A.S.
