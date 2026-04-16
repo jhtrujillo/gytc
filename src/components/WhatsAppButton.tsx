@@ -6,8 +6,7 @@ const WHATSAPP_MESSAGE = "Hola, quisiera más información sobre sus servicios d
 
 const agents = [
   { name: "Gustavo Gómez", role: "Gerencia", phone: "573127617297" },
-  { name: "Fabián Lozano", role: "Operaciones", phone: "573185107669" },
-  { name: "Kevin Angarita", role: "Comercial", phone: "573164462613" },
+  { name: "Jorge Gómez", role: "Dirección Operativa", phone: "573232920289" },
 ];
 
 const WhatsAppButton = () => {
