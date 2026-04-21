@@ -3,6 +3,7 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import { OptimizedImage } from "./OptimizedImage";
+import VideoSEO from "./VideoSEO";
 
 interface ImageGalleryProps {
   images: string[];
@@ -81,6 +82,13 @@ export const ImageGallery = ({ images, title, video }: ImageGalleryProps) => {
             <source src={video} type="video/mp4" />
             Tu navegador no soporta video HTML5.
           </video>
+          <VideoSEO
+            name={`${title} - Video de Operación`}
+            description={`Video de operación y servicios relacionados con ${title} por Grúas y Transportes de Colombia.`}
+            thumbnailUrl={window.location.origin + images[0]}
+            uploadDate="2024-01-01"
+            contentUrl={window.location.origin + video}
+          />
           <p className="text-sm text-muted-foreground mt-2 text-center">Video de operación</p>
         </div>
       )}

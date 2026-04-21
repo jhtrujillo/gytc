@@ -12,12 +12,13 @@ import QuoteForm from "@/components/QuoteForm";
 import heroImage1 from "@/assets/crane-grove.webp";
 import heroImage2 from "@/assets/crane-tower.webp";
 import heroImage3 from "@/assets/crane-concrete.webp";
+import VideoSEO from "./VideoSEO";
 
-type Slide = { type: "image"; src: string } | { type: "video"; src: string };
+type Slide = { type: "image"; src: string } | { type: "video"; src: string; poster: string };
 
 const slides: Slide[] = [
   { type: "image", src: heroImage1 },
-  { type: "video", src: "/videos/crane-operation.mp4" },
+  { type: "video", src: "/videos/crane-operation.mp4", poster: heroImage1 },
   { type: "image", src: heroImage2 },
   { type: "image", src: heroImage3 },
 ];
@@ -67,6 +68,7 @@ const Hero = () => {
           ) : (
             <video
               src={index === currentSlide ? slide.src : undefined}
+              poster={slide.poster}
               autoPlay
               muted
               loop
@@ -74,6 +76,15 @@ const Hero = () => {
               preload="metadata"
               className="w-full h-full object-cover"
               onEnded={nextImage}
+            />
+          )}
+          {slide.type === "video" && (
+            <VideoSEO
+              name="Operación de Grúa - GYTC Colombia"
+              description="Video demostrativo de operación de grúas y servicios de izaje de cargas extrapesadas por Grúas y Transportes de Colombia."
+              thumbnailUrl={window.location.origin + slide.poster}
+              uploadDate="2024-01-01"
+              contentUrl={window.location.origin + slide.src}
             />
           )}
           <div className="absolute inset-0 gradient-hero" />
